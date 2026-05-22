@@ -12,7 +12,7 @@ To Run the Project:
 npm run dev
 
 
-Deployment URL: 
+Deployment URL: https://pomodoro-timer-webapp.vercel.app/
 
 ## 2. Stack and design choices
 
@@ -29,6 +29,8 @@ On a 360px phone, the card layout stacks and controls wrap so every button remai
 
 One accessibility consideration I handled is using `aria-live="polite"` on the timer display so assistive tech can detect updates, plus clear button labels and keyboard-focusable controls.
 
+I could have enhanced its UI by totally depending on AI but it tried to keep it as simplest as possible fulfilling the requirement it is supposed to be providing. Although i can enhance this into more attractive web app.
+
 ## 4. AI usage
 
 AI support used:
@@ -39,6 +41,7 @@ AI support used:
 - verify what submission files were still missing
 
 A concrete change I made from AI guidance was implementing the daily reset logic by storing both `date` and `history` in localStorage, and clearing old history when the saved date is not today.
+
 
 ## 5. Honest gap
 

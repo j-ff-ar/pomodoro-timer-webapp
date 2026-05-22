@@ -32,4 +32,4 @@ npm run build
 
 ## Deployed URL
 
-N/A
+https://pomodoro-timer-webapp.vercel.app/
